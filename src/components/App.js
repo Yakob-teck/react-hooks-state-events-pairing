@@ -1,10 +1,11 @@
 import video from "../data/video.js";
-
+import Comment from "./Comment.jsx";
 function App() {
   console.log("Here's your data:", video);
 
   return (
     <div className="App">
+      <Comment />
       <iframe
         width="919"
         height="525"
